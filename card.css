@@ -1,0 +1,99 @@
+body{
+    background-color: #9093B2;
+}
+*{
+    margin: auto;
+}
+.main{
+    width: 600px;
+    height: 600px;
+    border-radius: 50px;
+    display: flex;
+    position: absolute;
+    flex-direction: column;
+    left: 50%;
+    top: 80%;
+    transform: translate(-50%, -80%);
+    padding: 20px;
+    background-color: #44527C;
+    box-shadow: 0 0 10px 10px #1B2641;
+}
+.card{
+    width: 450px;
+    height: 300px;
+    border-radius: 50px;
+    display: flex;
+    position: absolute;
+    z-index: 100;
+    justify-content: center;
+    background-color: #C0999D;
+    left: 50%;
+    top: -10%;
+    transform: translate(-50%, -20%);
+    box-shadow: 0 0 5px 5px #dab1b6;
+}
+.card-name{
+    margin: 0px;
+}
+#labelName{
+    font-size: 25px;
+    font-family: Courier;
+    font-weight: 800;
+    color: #949ED2;
+    display: flex;
+    justify-content: left;
+    padding: 0px;
+    margin-left: 50px;
+    margin-top: 170px;
+}
+#inputName{
+    width: 450px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    padding: 0px;
+    margin-top: 0px;
+    border: 5px solid #4A545E;
+    border-radius: 50px;
+    outline: none;
+    padding: 15px;
+    font-size: 35px;
+    font-family: Courier;
+    color: #4D4764;
+    text-align: center;
+    letter-spacing: 3px;
+    margin-left: 25px;
+}
+.card-number{
+    margin: 0px;
+}
+#labelNumber{
+    font-size: 25px;
+    font-family: Courier;
+    font-weight: 800;
+    color: #949ED2;
+    display: flex;
+    justify-content: left;
+    padding: 0px;
+    margin-left: 50px;
+    margin-top: 10px;
+}
+#inputNumber{
+    width: 450px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    padding: 0px;
+    margin-top: 0px;
+    margin-bottom: 20px;
+    border: 5px solid #4A545E;
+    border-radius: 50px;
+    outline: none;
+    padding: 15px;
+    font-size: 35px;
+    font-family: Courier;
+    color: #4D4764;
+    text-align: center;
+    letter-spacing: 3px;
+    margin-left: 25px;
+}
